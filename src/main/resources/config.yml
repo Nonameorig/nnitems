@@ -1,0 +1,37 @@
+defender-sword:
+  cooldown: 120
+  shield-duration: 15
+  helpless-duration: 3
+  required-kills: 5
+  shield-count: 6
+  shield-radius: 2.0
+  rotation-speed: 5.0
+  glow-color: "YELLOW"
+
+abilities:
+  damage-blocked-message: "&b⚔ &eЩиты защитили вас от урона!"
+  shield-break-message: "&c⚠ &eЩит сломан! Осталось: %count%"
+  all-shields-broken: "&c☠ &eВсе щиты сломаны! Вы беспомощны!"
+  helpless-ended: "&a✨ &eВы восстановили контроль!"
+  ability-ready: "&a✅ &eСпособность готова к использованию!"
+  on-cooldown: "&c⏰ &eСпособность на перезарядке: %time%с"
+
+gui:
+  title: "&8&lМеч Защитника"
+  sword-name: "&6&lМеч Защитника"
+  sword-lore:
+    - "&7Правый клик: &eПризывает щиты защиты"
+    - "&7Защита: &aНевосприимчив к урону"
+    - "&7Слабость: &cВзрыв эндер-кристалла"
+    - "&7Перезарядка: &b120 секунд"
+    - ""
+    - "&cТребуется убить &45 &cигроков"
+  border-item: "GRAY_STAINED_GLASS_PANE"
+  border-name: "&8"
+  kill-requirement: "&cНеобходимо убить еще: %kills% игроков"
+  ready-to-take: "&a&lНажмите чтобы взять"
+
+messages:
+  no-permission: "&cУ вас нет прав!"
+  player-only: "&cЭту команду может использовать только игрок!"
+  sword-given: "&aВы получили Меч Защитника!"

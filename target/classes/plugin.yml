@@ -1,0 +1,24 @@
+name: NNItems
+version: 1.0.0
+main: by.noname.nnitems.NNItems
+api-version: '1.21'
+author: noname
+description: Custom items plugin with Defender Sword
+
+commands:
+  defender:
+    description: Open defender sword GUI
+    usage: /defender
+    permission: nnitems.defender
+  nnitems:
+    description: Main plugin command
+    usage: /nnitems
+    permission: nnitems.admin
+
+permissions:
+  nnitems.defender:
+    description: Access to defender sword
+    default: op
+  nnitems.admin:
+    description: Admin commands
+    default: op
